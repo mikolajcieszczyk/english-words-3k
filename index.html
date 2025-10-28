@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Words 3K - Fiszki</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🇬🇧 English Words 3K</h1>
+
+        <button id="directionToggle" class="direction-toggle">🇬🇧 → 🇵🇱</button>
+        <p class="direction-hint">Kliknij powyżej aby zmienić kierunek nauki</p>
+      </header>
+
+      <div class="flashcard-wrapper">
+        <div class="flashcard" id="flashcard">
+          <div class="flashcard-content">
+            <div class="word" id="word">Kliknij "Następne słowo"</div>
+            <div class="translation" id="translation"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <p class="direction-hint">Kliknij w fiszkę, aby zobaczyć tłumaczenie</p>
+        <button id="nextButton" class="next-button">Następne słowo</button>
+      </div>
+    </div>
+
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
